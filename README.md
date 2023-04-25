@@ -78,7 +78,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[All calculation operator]**
+- **[All calculation operators]**
 - **[Nav bar]**
 - **[Quote page]**
 
