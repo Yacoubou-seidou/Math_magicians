@@ -1,13 +1,12 @@
 import React from 'react';
+import Monitor from './Monitor';
 
 const Calculator = () => {
   const value = 0;
   return (
     <>
       <div className="calculator">
-        <section className="monitor">
-          <p>{value}</p>
-        </section>
+        <Monitor value={value} />
         <section className="calcbtnContainer">
           <button type="button">AC</button>
           <button type="button" className="twosigne">-/+</button>
