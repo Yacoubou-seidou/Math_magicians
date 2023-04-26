@@ -38,5 +38,9 @@
   margin: 0;
   text-align: right;
   width: 320px;
+  height: 20px;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #858694;
 }
