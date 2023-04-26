@@ -4,7 +4,11 @@ const Monitor = (prop) => {
   const { value } = prop;
   return (
     <section className="monitor">
-      <p>{value}</p>
+      <p>
+        {value.total}
+        {value.operation}
+        {value.next}
+      </p>
     </section>
   );
 };
