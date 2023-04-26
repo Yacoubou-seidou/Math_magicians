@@ -1,0 +1,42 @@
+.zero {
+  grid-column: span 2;
+}
+
+.calculator {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calcbtnContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: auto;
+}
+
+.calcbtnContainer button {
+  border: 1px solid #d1d1d1;
+  height: 50px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.monitor {
+  text-align: right;
+  margin: 40px 0 0 0;
+  font-size: 45px;
+}
+
+.orange {
+  background-color: #f5913e;
+}
+
+.monitor p {
+  margin: 0;
+  text-align: right;
+  width: 320px;
+  background-color: #858694;
+}
