@@ -15,6 +15,7 @@
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
+    - [install](#install)
     - [Setup](#setup)
     - [Usage](#usage)
   - [👥 Authors ](#-authors-)
@@ -86,6 +87,11 @@ or
 npm install
 ```
 
+### install
+
+```sh
+npm install
+```
 
 ### Setup
 
