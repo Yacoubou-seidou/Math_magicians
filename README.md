@@ -15,8 +15,8 @@
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [install](#install)
     - [Setup](#setup)
+    - [install](#install)
     - [Usage](#usage)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -87,11 +87,6 @@ or
 npm install
 ```
 
-### install
-
-```sh
-npm install
-```
 
 ### Setup
 
@@ -100,6 +95,12 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone https://github.com/Yacoubou-seidou/Math_magicians.git
+```
+
+### install
+
+```sh
+npm install
 ```
 
 ### Usage
