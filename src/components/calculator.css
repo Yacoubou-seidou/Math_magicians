@@ -2,6 +2,14 @@
   grid-column: span 2;
 }
 
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .calculator {
   border-radius: 10px;
   display: flex;
@@ -43,4 +51,8 @@
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #858694;
+}
+
+.quote {
+  width: 30%;
 }
