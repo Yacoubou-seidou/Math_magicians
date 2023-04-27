@@ -85,6 +85,9 @@ In order to run this project you need:
 sudo apt install git-all
 or
 npm install
+Node.js
+Visual Studio Code
+Browser
 ```
 
 
