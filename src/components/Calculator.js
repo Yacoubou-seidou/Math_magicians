@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Monitor from './Monitor';
 import calculate from '../logic/calculate';
+import Quote from './Quote';
 
 const Calculator = () => {
   const [value, setValue] = useState({
@@ -16,7 +17,8 @@ const Calculator = () => {
     }));
   };
   return (
-    <>
+    <div className="main">
+      <Quote />
       <div className="calculator">
         <Monitor value={value} />
         <section className="calcbtnContainer">
@@ -41,7 +43,7 @@ const Calculator = () => {
           <button type="button" className="orange" onClick={eventHandler} name="=">=</button>
         </section>
       </div>
-    </>
+    </div>
   );
 };
 export default Calculator;
