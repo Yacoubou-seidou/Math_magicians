@@ -1,12 +1,19 @@
+body {
+  background-color: lightblue;
+}
+
 .zero {
   grid-column: span 2;
 }
 
-.main {
+.main,
+.nav {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.nav {
   align-items: center;
 }
 
@@ -54,5 +61,28 @@
 }
 
 .quote {
-  width: 30%;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.sizing {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.nav_items {
+  display: flex;
+  justify-content: space-between;
+  min-width: 15%;
+  list-style-type: none;
+}
+
+.hdivider {
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+  margin: 0 10px;
 }

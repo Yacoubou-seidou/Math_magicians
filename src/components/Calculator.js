@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Monitor from './Monitor';
 import calculate from '../logic/calculate';
-import Quote from './Quote';
 
 const Calculator = () => {
   const [value, setValue] = useState({
@@ -17,8 +16,8 @@ const Calculator = () => {
     }));
   };
   return (
-    <div className="main">
-      <Quote />
+    <div className="main sizing">
+      <h3>Let&apos;s do some math!</h3>
       <div className="calculator">
         <Monitor value={value} />
         <section className="calcbtnContainer">

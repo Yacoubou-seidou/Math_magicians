@@ -25,22 +25,26 @@ const Quote = () => {
     getQuote();
   }, []);
   return (
-    !loader ? (
-      <div className="quote">
-        {fetchData ? (
-          <>
-            <q className="paragraph">{fetchData.quote}</q>
-            <p className="author">
-              {fetchData.author}
+    <div className="quote sizing">
+      {!loader ? (
+        <div>
+          {fetchData ? (
+            <>
+              <q className="paragraph">{fetchData.quote}</q>
+              <p className="author">
+                -
+                {fetchData.author}
+              </p>
+            </>
+          ) : (
+            <p className="paragraph">
+              {getError}
             </p>
-          </>
-        ) : (
-          <p className="paragraph">
-            {getError}
-          </p>
-        )}
-      </div>
-    ) : <p>Loading</p>
+          )}
+        </div>
+      )
+        : <p className="loader">Loading</p>}
+    </div>
   );
 };
 
